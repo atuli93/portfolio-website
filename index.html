@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atul | Portfolio</title>
+  <title>Atul Kumar | Portfolio</title>
   <style>
+    /* General Styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -13,48 +15,61 @@
       background: #f9f9f9;
       color: #333;
     }
+
+    /* Header */
     header {
       background: #222;
       color: #fff;
       padding: 20px 0;
       text-align: center;
     }
+
     header h1 {
       margin: 0;
     }
+
     header p {
       margin: 5px 0 0;
     }
+
     header img {
       border-radius: 50%;
       margin-top: 10px;
       width: 150px;
       height: 150px;
     }
+
+    /* Navigation */
     nav {
       background: #444;
       padding: 10px;
       text-align: center;
     }
+
     nav a {
       color: #fff;
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
+    /* Section Styles */
     section {
       padding: 40px 20px;
       max-width: 900px;
       margin: auto;
     }
+
     h2 {
       border-bottom: 2px solid #444;
       padding-bottom: 10px;
       margin-bottom: 20px;
     }
+
     .skills span {
       display: inline-block;
       background: #eee;
@@ -63,18 +78,22 @@
       border-radius: 5px;
       font-weight: bold;
     }
+
+    /* Project Cards */
     .project {
       background: #fff;
       padding: 20px;
       margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+
     .project img {
       max-width: 100%;
       border-radius: 5px;
       margin-bottom: 10px;
     }
+
     .project a {
       display: inline-block;
       margin-top: 10px;
@@ -82,9 +101,12 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     .project a:hover {
       text-decoration: underline;
     }
+
+    /* Footer */
     footer {
       background: #222;
       color: #fff;
@@ -94,13 +116,16 @@
     }
   </style>
 </head>
+
 <body>
+  <!-- Header Section -->
   <header>
     <h1>Atul Kumar</h1>
     <p>Software Developer | AI/ML Enthusiast</p>
-    <img src="https://raw.githubusercontent.com/atuli93/portfolio-website/main/images/profile.jpg" alt="Atul Profile">
+    <img src="https://raw.githubusercontent.com/atuli93/portfolio-website/main/images/profile.jpg" alt="Atul Profile Picture">
   </header>
 
+  <!-- Navigation Menu -->
   <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
@@ -108,11 +133,14 @@
     <a href="#contact">Contact</a>
   </nav>
 
+  <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm Atul 👋. I enjoy building software, experimenting with AI/ML, and contributing to open-source projects. This website showcases some of my highlighted works and skills.</p>
+    <p>Hi, I'm Atul 👋. I enjoy building software, experimenting with AI/ML, and contributing to open-source projects.
+      This website showcases some of my highlighted works and skills.</p>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills" class="skills">
     <h2>Skills</h2>
     <span>Python</span>
@@ -123,9 +151,11 @@
     <span>HTML & CSS</span>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
 
+    <!-- Password Strength Checker Project -->
     <div class="project">
       <img src="https://raw.githubusercontent.com/atuli93/portfolio-website/main/images/project1.png" alt="Password Strength Checker">
       <h3>Password Strength Checker</h3>
@@ -133,6 +163,7 @@
       <a href="https://github.com/atuli93/Password-Strength-Checker" target="_blank">🔗 View on GitHub</a>
     </div>
 
+    <!-- Sentiment Analyzer Demo Project -->
     <div class="project">
       <img src="https://raw.githubusercontent.com/atuli93/portfolio-website/main/images/project2.png" alt="Sentiment Analyzer Demo">
       <h3>Sentiment Analyzer Demo</h3>
@@ -140,6 +171,7 @@
       <a href="https://github.com/atuli93/sentiment-analyzer-demo" target="_blank">🔗 View on GitHub</a>
     </div>
 
+    <!-- BlockAssist Guide Project -->
     <div class="project">
       <img src="https://raw.githubusercontent.com/atuli93/portfolio-website/main/images/project3.png" alt="BlockAssist Guide">
       <h3>BlockAssist Guide</h3>
@@ -147,6 +179,7 @@
       <a href="https://github.com/atuli93/BlockAssist-Guide" target="_blank">🔗 View on GitHub</a>
     </div>
 
+    <!-- Phishing URL Detector Project -->
     <div class="project">
       <img src="https://raw.githubusercontent.com/atuli93/portfolio-website/main/images/project1.png" alt="Phishing URL Detector">
       <h3>Phishing URL Detector</h3>
@@ -154,6 +187,7 @@
       <a href="https://github.com/atuli93/phishing-url-detector" target="_blank">🔗 View on GitHub</a>
     </div>
 
+    <!-- Portfolio Website Project -->
     <div class="project">
       <img src="https://raw.githubusercontent.com/atuli93/portfolio-website/main/images/project2.png" alt="Portfolio Website">
       <h3>Portfolio Website</h3>
@@ -162,6 +196,7 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:atul70884@gmail.com">atul70884@gmail.com</a></p>
@@ -169,8 +204,12 @@
     <p>LinkedIn: <a href="https://linkedin.com/in/atuli93" target="_blank">linkedin.com/in/atuli93</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Atul — Built with ❤️ on GitHub Pages</p>
+    <p>© 2025 Atul Kumar — Built with ❤️ on GitHub Pages</p>
   </footer>
+
 </body>
+
 </html>
+
